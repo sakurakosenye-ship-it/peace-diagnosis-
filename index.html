@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>平和タイプ診断</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="site-header">
+   <h1 class="site-title">平和タイプ診断</h1>
+   <p class="site-subtitle">あなたが求める平和のカタチは？</p>
+ </header>
+  <div id="quiz-container"></div>
+  <div id="result-container" class="hidden">
+
+  <h2 class="result-heading">あなたが平和の形を求める姿は</h2>
+  <h1 id="result-title"></h1>
+  <p id="result-caption"></p>
+  <img id="result-image" src="" alt="結果画像">
+
+  <div id="resultSections">
+  <h3>あなたはこんな風に平和を見る人👀</h3>
+  <p id="result-detail"></p>
+
+  <h3>理想の平和のカタチを達成するには...</h3>
+  <p id="result-action"></p>
+
+  <h3>あなたとベストのタイプ...?</h3>
+  <p id="result-match"></p>
+ </div>
+
+<div id="quiz-container"></div>
+
+<div id="result-container" class="hidden"></div>
+
+<!-- 戻るボタンはここに配置 -->
+<button id="back-button" class="back-button" style="display:none;">戻る</button>
+
+ <!-- もう一度診断する -->
+  <button class="retry-button" onclick="restartQuiz()">もう一度診断する</button>
+
+  <div class="share-buttons">
+    <button id="share-x">Xでシェア</button>
+    <button id="share-insta">Instagramでシェア</button>
+　　<button id="share-line">LINEでシェア</button>
+    <button id="copy-url">リンクをコピー</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
